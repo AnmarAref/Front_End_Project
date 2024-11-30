@@ -63,10 +63,11 @@ This project is an HTML and CSS-based task designed to create a responsive and v
    
 2. **Directory Structure**:
    ```
-   /project-folder
+   project-folder
    ├── Index.html
    ├── css
-   │   └── style.css
+   │   ├── all.css
+   │   ├── style.css
    └── images
        ├── magnetic.png
        ├── stickers.png
