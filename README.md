@@ -89,10 +89,7 @@ This project is an HTML and CSS-based task designed to create a responsive and v
 
 ## **Preview**
 You can view a preview of the project below:
-<video width="560" height="315" controls>
-  <source src="https://github.com/user-attachments/assets/ae863edd-cecb-4311-895f-f450635243e6" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[!Watch the Demo Video](https://github.com/user-attachments/assets/ae863edd-cecb-4311-895f-f450635243e6)
 
 ---
 
