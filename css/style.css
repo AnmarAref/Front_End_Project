@@ -124,7 +124,7 @@ body {
 }
 .hero-content p {
     color: #d4d4d4;
-    font-size: 15px;
+    font-size: 14px;
     padding: 12px 0;
     letter-spacing: 2px;
 }
@@ -150,6 +150,14 @@ body {
     height: 100%;
     text-transform: capitalize;
 }
+.wrapper {
+    width: 80%;
+    text-align: center;
+    margin: 40px auto; 
+}
+.second-item {
+    margin: 0px 5%;
+}
 .section-title {
     margin: 55px 0 10px 0;
     font-size: 40px;
@@ -164,9 +172,8 @@ body {
 .feature-card {
     position: relative;
     float: left;
-    width: 330px;
+    width: 30%;
     height: 230px;
-    margin: 80px 0 0 100px;
     text-align: center;
     border: 1px solid #4CC9FE;
     border-radius: 10px;
@@ -220,15 +227,14 @@ body {
     background-color: rgba(76, 201, 254, 0.3);
     overflow: auto;
 }
-.work-items {
-    margin: 50px 0 0 200px;
-    text-align: center;
-}
 .work-item {
     position: relative;
     float: left;
-    margin: 20px;
-    text-align: center;
+    margin-bottom: 30px;
+    width: 30%;
+}
+.work-item.second-item {
+    margin: 0px 3%;
 }
 .featured-overlay {
     width: 100%;
@@ -281,16 +287,15 @@ body {
     height: 100%;
     overflow: auto;
 }
-.offer-items {
-    margin: 10px 0px 0px 100px;
-    display: inline-block;
+.offers .wrapper {
+    text-align: left;
 }
 .offer-item {
     position: relative;
     float: left;
-    width: 300px;
+    width: 30%;
     height: 200px;
-    margin: 20px 50px;
+    margin-bottom: 40px;
     border: 1px solid #4CC9FE;
     padding: 20px 10px 0 55px;
     border-radius: 10px;
@@ -341,14 +346,18 @@ body {
 .choose-us-container {
     width: 100%;
     height: 100%;
-    margin: auto;
+    overflow: auto;
 }
-.choose-us-parent {
-    margin: 130px;
+.choose-us-container .wrapper {
+    text-align: left;
+    margin-top: 100px; 
 }
 .choose-us-text, .choose-us-image {
     float: left;
     width: 50%;
+}
+.choose-us-text {
+    padding-top: 4cap;
 }
 .choose-us-image {
     padding-left: 180px;
@@ -399,6 +408,7 @@ body {
     background-image: url(../images/achievements.png);
     background-size: cover;
     background-attachment: fixed;
+    margin-top: 100px;
 }
 .achievements-overlay {
     position: absolute;
@@ -416,8 +426,7 @@ body {
 }
 .achievement-item {
     float: left;
-    width: 240px;
-    margin-right: 20px;
+    width: 24%;
     text-align: center;
 }
 .achievement-icon {
@@ -434,27 +443,16 @@ body {
     text-align: center;
     width: 100%;
     height: 100%;
-    padding-top: 130px;
-}
-.product-pricing-container {
-    width: 80%;
-    margin: auto;
-}
-.product-card {
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    padding-left: 25px;
+    padding-top: 100px;
 }
 .product-item {
     position: relative;
-    width: 305px;
+    width: 30%;
     padding: 30px 15px;
     border: 1px solid #4CC9FE;
     border-radius: 10px;
     float: left;
     transition: 0.5s;
-    margin: 50px 25px;
 }
 .product-name {
     text-transform: uppercase;
@@ -578,15 +576,8 @@ body {
 
 /* staff Section  */
 .team-section {
-    text-align: center;
     width: 100%;
     height: 100%;
-}
-.team-members-wrapper {
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    margin-top: 50px;
 }
 .team-member {
     position: relative;
@@ -596,10 +587,6 @@ body {
     border-radius: 10px;
     float: left;
     transition: 0.5s;
-    text-align: center;
-}
-.second-team-member {
-    margin: 0px 5%;
 }
 .team-member-image {
     width: 80%;
